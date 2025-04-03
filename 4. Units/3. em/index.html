@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM - Unit</title>
+    <style>
+        .absolute{
+            font-size: 20px;
+            background-color: aqua;
+        }
+
+        .absolute p{
+            font-size: 25px;
+        }
+
+        .relative{
+            font-size: 20px;
+            background-color: bisque;
+        }
+
+        .relative p{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        em unit is relative to the parent's element's font-size
+        1em = 1 * parent's font-size
+    
+    -->
+    <h1>Em Units</h1>
+    <div class="absolute">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nam.</p>
+    </div>
+    <div class="relative">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, provident!</p>
+    </div>
+
+</body>
+</html>

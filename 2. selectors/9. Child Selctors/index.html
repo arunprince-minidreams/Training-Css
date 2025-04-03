@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selectors</title>
+    <style>
+        /* 
+            Child selectors
+            Combinator selectors
+            Syntax
+
+            referecedSelector(parent) > selector {
+                property: value;
+            
+            }
+        
+        */
+
+        #about>p{
+            color: gold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Descendant selectors</h1>
+    <div id="about">
+        <h2>About section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ad.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptas.</p>
+        <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Kiwi</li>
+        </ul>
+        <div>
+            <div>
+                <!-- nested child / grand child -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptas.</p>
+            </div>
+        </div>
+    </div>
+    <div id="Projects">
+        <h2>Project Section</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, dolores.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, libero!</p>
+        <ul>
+            <li>To-Do app</li>
+            <li>Task Manager</li>
+            <li>Notes taking</li>
+            <li>Blog website</li>
+        </ul>
+    </div>
+</body>
+</html>

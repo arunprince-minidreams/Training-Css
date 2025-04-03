@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Colours</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            margin-bottom: 5px;
+        }
+        /* Color based on names */
+        .name{
+            background-color: blue; 
+        }
+
+        /* Hex color #RRBBGG */
+        .hex{
+            background-color: #c66542;
+        }
+
+        /* RGB value (0 to 255) */
+        .rgb{
+            background-color: rgb(20, 211, 236);
+        }
+
+        /* RGBA value alpha - (0 to 1) */
+        .rgba{
+            background-color: rgba(255, 255, 45, 0.715);
+        }
+        /* Linear gradient */
+        /* linear-gradient(angle[deg] or keyword[ro right, to left], color1, color2....color-n) */
+        .linear-gradient{
+            width: 400px;
+            background: linear-gradient(to left, blue, greenyellow, pink);   
+        }
+
+        /* radial-gradient */
+        /* radial-gradient(shape[circle, eclipse], color-1, color-2....color-n) */
+        .radial-gradient{
+            height: 400px;
+            width: 400px;
+            background: radial-gradient(circle, orange, skyblue, red);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        1. name
+        2. hex
+        3. rgb
+        4. rgba
+        5. linear-gradient
+        6. radial-gradient
+    -->
+    <h1>Css - colors</h1>
+    <div class="name"></div>
+    <div class="hex"></div>
+    <div class="rgb"></div>
+    <div class="rgba"></div>
+    <div class="linear-gradient"></div>
+    <div class="radial-gradient"></div>
+</body>
+</html>
