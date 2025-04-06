@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        /* converting Block to Inline */
+      /* .inline{
+        background-color: greenyellow;
+        display: inline;
+        height: 100px;
+      } */
+
+      /* converting Inline to Block */
+      /* .block{
+        background-color: greenyellow;
+        display: block;
+        height: 100px;
+      } */
+
+      h1{
+        background-color: cornflowerblue;
+        display: inline-block;
+        height: 100px;
+        /* width: 100%; */
+      }
+      .hidden{
+        height: 100px;
+        background-color: brown;
+        border: 2px solid black;
+        /* visibility: hidden; */
+        /* display: none; */
+      }
+      .none{
+        height: 100px;
+        background-color: rgb(32, 113, 185);
+        margin-bottom: 20px;
+        /* display: none; */
+      }
+    </style>
+</head>
+<body>
+    <!-- 
+        Display
+        1. Block level - takes full width, can add widh & height
+        2. Inline level - takes only content width, cannot manipulate height & width
+        3. Inline-block - make the element to inline, can add with & height
+        4. hidden
+        5. none
+    -->
+    <h1 class="inline">Display Properties</h1>  
+    <span class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, eaque.</span>
+    <h2 class="inline">Sub Heading</h2>
+    <div class="none">display none</div>
+    <div class="hidden">Hidden element</div>
+    <p style="background-color: greenyellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, veritatis.</p>
+    <div class="opacity"></div>
+
+</body>
+</html>
